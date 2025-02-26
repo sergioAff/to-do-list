@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: to-do-list
+  rabbitmq:
+    addresses: ${RABBIT_URI}
+
+rabbitmq:
+  queue: to-do-list_queue
